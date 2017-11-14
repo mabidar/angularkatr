@@ -1,0 +1,21 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20171114120152",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "cart",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}

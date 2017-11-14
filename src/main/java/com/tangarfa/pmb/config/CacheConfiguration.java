@@ -42,6 +42,7 @@ public class CacheConfiguration {
             cm.createCache(com.tangarfa.pmb.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.tangarfa.pmb.domain.User.class.getName() + ".authorities", jcacheConfiguration);
             cm.createCache(com.tangarfa.pmb.domain.Product.class.getName(), jcacheConfiguration);
+            cm.createCache(com.tangarfa.pmb.domain.Cart.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

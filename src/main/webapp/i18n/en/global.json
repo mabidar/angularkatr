@@ -8,6 +8,7 @@
             "entities": {
                 "main": "Entities",
                 "product": "Product",
+                "cart": "Cart",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
